@@ -4,5 +4,25 @@
   display: block;
   margin: auto;
   border: 1px solid black;
-  background: url('https://i.imgur.com/F92T4ud.png') no-repeat fixed center;
+  background: url('../assets/img/game_background.png') no-repeat fixed center;
+}
+
+body {
+  background: url('../assets/img/background.jpg') no-repeat fixed center;
+  font-family: 'VT323';
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 5px 10px 10px 5px;
+}
+
+span {
+  font-size: 22px;
+}
+
+p {
+  font-size: 28px;
+  margin: 10px 10px 10px 5px;
 }
