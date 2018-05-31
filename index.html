@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>SquareBoi</title>
     <link rel="stylesheet" href="./css/squareboi.css">
+    <link rel="icon" href="./assets/img/icons/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
     <script type="text/javascript" src="./lib/bundle.js"></script>
   </head>
@@ -11,10 +12,15 @@
     <h1>Square Boi</h1>
 
     <div class="squareboi-container">
-      <canvas id="squareboi-game"></canvas>
-      <audio autoplay loop>
-        <source src="./assets/audio/squareboi_chorus.wav">
+      <audio autoplay loop id="music">
+        <source src="./assets/audio/music.mp3">
       </audio>
+      <a href="#" id="mute-audio">
+        <img id="mute-audio-img" src="./assets/img/icons/music-on.png" alt="mute-icon">
+      </a>
+
+      <canvas id="squareboi-game"></canvas>
+
       <div class="instructions">
         <h2>Controls</h2>
         <p class="controls">
@@ -34,6 +40,7 @@
     <div class="personal-info">
       <a href="https://www.linkedin.com/in/brian-liew-b6246655/"><img class="linkedin" src="./assets/img/icons/linkedin-black.png" alt="linkedin-img"></a>
       <a href="https://github.com/bliew93"><img class="github" src="./assets/img/icons/gh-black.png" alt="github-img"></a>
+            <a href="http://brianliew.com/"><img class="personal" src="./assets/img/icons/personal-black.png" alt="personal-img"></a>
     </div>
 
   </body>
