@@ -77,6 +77,10 @@ li {
   content: url('../assets/img/icons/linkedin-white.png');
 }
 
+.personal:hover {
+  content: url('../assets/img/icons/personal-white.png');
+}
+
 #mute-audio {
   position: absolute;
   width: 50px;
