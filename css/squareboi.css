@@ -39,7 +39,8 @@ li {
   width: 896px;
   height: 504px;
   display: block;
-  margin: auto;
+  margin-left: 205px;
+  margin-right: 50px;
   border: 1px solid black;
   background: url('../assets/img/game_bg.png') no-repeat fixed center;
 }
@@ -49,6 +50,10 @@ li {
   margin-right: auto;
   background-color: rgba(255, 255, 255, 0.3);
   border: 1px solid black;
+}
+
+.instructions ul {
+  padding-right: 40px;
 }
 
 .controls {
@@ -85,4 +90,5 @@ li {
   position: absolute;
   width: 50px;
   height: 50px;
+  left: 165px;
 }
