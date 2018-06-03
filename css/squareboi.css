@@ -39,7 +39,7 @@ li {
   width: 896px;
   height: 504px;
   display: block;
-  margin-left: 205px;
+  margin-left: 60px;
   margin-right: 50px;
   border: 1px solid black;
   background: url('../assets/img/game_bg.png') no-repeat fixed center;
@@ -90,7 +90,6 @@ li {
   position: absolute;
   width: 50px;
   height: 50px;
-  left: 165px;
 }
 
 #game-over-modal {
@@ -112,4 +111,23 @@ li {
 
 #game-over-modal a {
   text-decoration: none;
+}
+
+.high-scores-container {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 200px;
+  font-size: 24px;
+  margin-left: 90px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.high-scores-container h2 {
+  margin: auto;
+  margin-top: 25px;
+}
+
+.high-scores-container table {
+  margin: auto;
+  border-spacing: 25px 5px;
 }
