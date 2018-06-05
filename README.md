@@ -38,6 +38,7 @@ There are additional features that I would like to implement for Square Boi.
 ### High Score Snippets
 
 #### Get High Scores from database
+Retrieves the high scores from the Firebase NoSQL database asynchronously, then displays them to the player
 ````js
 const retrieveHighScores = () => {
   firebaseDB.ref('/scores/').once('value').then( snap => {
@@ -48,6 +49,7 @@ const retrieveHighScores = () => {
 ````
 
 #### Display high scores
+Manipulates the DOM, using vanilla JS, to create a table with the top 10 high scores
 ````js
 const displayHighScores = (highScores) => {
   const scoresTable = document.getElementById('scores-table');
@@ -73,6 +75,7 @@ const displayHighScores = (highScores) => {
 ````
 
 #### Write high score to database
+Writes a new high score into the Firebase database
 ````js
 const writeScore = (username, score) => {
   const scoreRefs = firebaseDB.ref('scores/' + `${score * 1000}`);
@@ -81,6 +84,7 @@ const writeScore = (username, score) => {
 ````
 
 #### Remove lowest score in database
+Removes the lowest score in the database if the new high score is at least higher than the previous lowest one in the top 10 list
 ````js
 const removeLowestScore = () => {
   firebaseDB.ref('/scores/').once('value').then( snap => {
