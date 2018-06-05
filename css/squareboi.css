@@ -106,11 +106,24 @@ li {
 
 #game-over-modal h2 {
   font-size: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.game-over-choice {
+  display: block;
+  margin-bottom: 10px;
 }
 
 #game-over-modal a {
   text-decoration: none;
+}
+
+#game-over-modal input {
+
+}
+
+#game-over-modal button {
+  background: orange;
 }
 
 .high-scores-container {
