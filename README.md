@@ -26,6 +26,7 @@ This project will be implemented with the following technologies:
 - `JavaScript` for game logic,
 - `HTML5 Canvas` to render our boi and the platform levels,
 - `Webpack` to bundle js files.
+- `Firebase` to persist high scores to Firebase NoSQL cloud database.
 
 
 ### Future Implementations
